@@ -46,3 +46,25 @@ nav ul li a{
     color: #f4a7bb;
     font-weight: 500;
 }
+
+@media (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        margin:  0 30px 30px;
+    }
+    .navbar{
+        height: 200px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 3px;
+    }
+    nav ul li:hover{
+        color: #551A8B;
+        background-color:#A084DC;
+        margin-top: 0px;
+    }
+
+}
